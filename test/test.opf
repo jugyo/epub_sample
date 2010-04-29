@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+ <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+   <dc:title>タイトル</dc:title>
+   <dc:creator opf:role="aut">著者</dc:creator>
+   <dc:language>ja</dc:language>
+   <dc:publisher>出版社</dc:publisher>
+   <dc:identifier id="BookId">book_id</dc:identifier>
+ </metadata>
+ <manifest>
+  <item id="ncx" href="toc.ncx" media-type="text/xml" />
+  <item id="style" href="OEBPS/default.css" media-type="text/css" />
+  <item id="foo" href="OEBPS/foo.html" media-type="application/xhtml+xml" />
+  <item id="img_1" href="OEBPS/images/1.png" media-type="image/png"/>
+  <item id="img_2" href="OEBPS/images/2.png" media-type="image/png"/>
+ </manifest>
+ <spine toc="ncx">
+  <itemref idref="foo" />
+
+ </spine>
+</package>
